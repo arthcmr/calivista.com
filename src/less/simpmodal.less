@@ -1,41 +1,3 @@
-body, h1, h2, h3, h4, h5, h6, p {
-	font-family: @FontSerif;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-}
-::-moz-selection { 
-background-color: @ColorBlack; 
-color: @ColorWhite;
-}
-::selection {
-background-color: @ColorBlack;
-color: @ColorWhite;
-}
-
-.page {
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 530px;
-	position: relative;
-	overflow: hidden;
-
-    .menu {
-        display: none;
-    }
-
-    @media (min-width: @screen-sm-min) {
-        .menu {
-            display: block;
-        }
-    }
-
-	@media (min-width: @screen-md-min) {
-		min-height: 730px;
-	}
-}
-
 /*DEFAULT SIMPMODAL STYLES*/
 
 .simp_overlay {
@@ -43,7 +5,7 @@ color: @ColorWhite;
     display: none;
 }
 .simp_modal {
-    width: 90%;
+    width: 600px;
     padding: 30px;
     display: none;
     background: #FFF;
@@ -55,12 +17,6 @@ color: @ColorWhite;
     -moz-box-shadow: 0 0px 8px rgba(0, 0, 0, 0.4);
     text-align: justify;
     margin-bottom: 50px;
-    
-    @media (min-width: @screen-sm-min) {
-		width: 600px;
-	    margin-bottom: 50px;
-    }
-    
 }
 .simp_modal .close_button {
     position: absolute;
@@ -87,14 +43,4 @@ color: @ColorWhite;
     cursor: pointer;
     opacity: 0.4;
     filter: alpha(opacity=40);
-}
-.simp_modal.wide {
-    width: 900px;
-}
-.simp_modal.narrow {
-    width: 225px;
-}
-.simp_modal.dark {
-    background: #333;
-    color: #fff;
 }

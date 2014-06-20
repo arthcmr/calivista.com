@@ -1,0 +1,117 @@
+.about-page {
+	background-color: #f3f3e7;
+	background-image: url(../img/background2.jpg);
+	
+	.drop-shadow (0, 0, 24px, 0px , 0.19);
+
+	padding-top:75px;
+	padding-bottom: 95px;
+
+	.menu {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.main-text {
+		font-size: 1.05em;
+		color: #453F35;
+		
+		margin-bottom: 30px;
+	}
+
+	.columns h2 {
+		color: #ABA79C;
+		font-family: @FontTitle;
+		font-size: 1.9em;
+	}
+
+	.gallery {
+		padding: 10px 0px;
+		text-align: center;
+		margin-bottom: 30px;
+
+		& > li {
+			float: none;
+			display: inline-block;
+
+			& > .photo {
+
+				background-color: #FAFAF4;
+				padding: 8px;
+				margin: 10px;
+				margin-bottom: 20px;
+				display: inline-block;
+				
+				
+				border-radius: 3px;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				
+				border: 1px solid #F3F3ED;
+				
+				.drop-shadow (1px, 1px, 5px, 0px , 0.1);
+
+				& > img {
+					width: 100px;
+					height: 75px;
+					
+					@media (min-width: @screen-sm-min) {
+						width: 200px;
+						height: 150px;
+					}
+				}
+		   
+			}
+
+			&:nth-child(5n-9) > .photo {  /* or 4n+1 */
+				.rotate(-5deg);
+			}
+
+			&:nth-child(5n-8) > .photo {  /* or 4n+1 */
+				.rotate(2deg);
+			}
+
+			&:nth-child(5n-7) > .photo {  /* or 4n+1 */
+			    .rotate(-1deg);
+			}
+			&:nth-child(5n-6) > .photo {  /* or 4n+1 */
+			    .rotate(7deg);
+			}
+
+			&:nth-child(5n-5) > .photo {  /* or 4n+1 */
+			    .rotate(1deg);
+			}
+
+		}
+	}
+
+	.clearing-blackout {
+		background-color: rgba(0,0,0,0.9);
+	}
+	.clearing-assembled .clearing-container .visible-img, .clearing-assembled .clearing-container .carousel, .clearing-caption {
+		background-color: rgba(0,0,0,0);
+	}
+
+	.clearing-blackout .gallery > li > .photo{
+	    .rotate(0deg);
+		padding: 0px;
+		margin: 0px;
+		margin-bottom: 0px;
+		display: inline-block;
+		.border-radius(0px);
+	}
+
+	.renting-info {
+		text-align: center;
+		line-height: 2em;
+
+		a{
+			cursor: pointer;
+			text-decoration: underline;
+			color: #4A382A;
+
+			&:hover{
+				color: @ColorBlack;
+			}
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{{!-- ABOUT PAGE --}}
+<section id="about" class="about-page page">
+
+	{{!-- MENU --}}
+	<div class="container">
+	  	<div class="menu_wrapper">
+			<dl class="menu">
+				{{#each site.menu }}
+				<dd {{#is this.name "about"}}class="active"{{/is}}>
+					<a href="{{this.link}}">{{this.name}}</a>
+				</dd>
+				{{/each}}
+			</dl>
+		</div>
+	</div>
+	{{!-- /MENU --}}
+
+	<div class="container">
+		<div class="row main-text">
+			
+			<div class="col-xs-12 col-sm-4 columns">
+				<h2>
+					{{about.calivista.title}}
+				</h2>
+				<p>
+					{{about.calivista.text}}
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-4 columns">
+				<h2>
+					Our process
+				</h2>
+				<p>
+					Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-4 columns">
+				<h2>
+					Our team
+				</h2>
+				<p>
+					Dave Kalainoff - CaliVista Owner.
+				</p>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			
+			<ul class="clearing-thumbs gallery" data-clearing>
+			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption here..." src="http://placehold.it/200x150"></a></li>
+			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 2 here..." src="http://placehold.it/200x150"></a></li>
+			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 3 here..." src="http://placehold.it/200x150"></a></li>
+			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 2 here..." src="http://placehold.it/200x150"></a></li>
+			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 3 here..." src="http://placehold.it/200x150"></a></li>
+			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 2 here..." src="http://placehold.it/200x150"></a></li>
+			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 3 here..." src="http://placehold.it/200x150"></a></li>
+			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 3 here..." src="http://placehold.it/200x150"></a></li>
+			</ul>
+		
+		</div>
+		<div class="row">
+			<div class="renting-info col-xs-12 col-sm-offset-3 col-sm-6 large-centered columns">
+				If you would like to have the best Mendoza experience, stay in CaliVista! For more information, <a href="#visit" data-scroll>see our visit page</a>.
+			</div>
+		</div>
+	</div>
+	
+	
+</section>

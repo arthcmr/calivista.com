@@ -1,0 +1,20 @@
+{
+
+	"intro": "We developed the Malbec and Chardonnay wines in collaboration  with our winemaker Mauricio Loroa. We have carefully selected grapes from the very best parcel of our 70 acre vineyard near Tupungato, Mendoza.",
+
+	"wine1": {
+		"title": "Malbec",
+		"link": "mailto:contact@calivista.com",
+		"price": "",
+		"description": "This wine aged for 14 months in French (70%) and American (30%) Oak barrels. This Malbec has a deep violec color. You will find the flavors intense with a taste of ripe plums and hints of white pepper. Storing in oak barrels adds complexity as well as traces of coconut and vanilla flavors. This wine has a great structure and body with ripe solt tannins, balanced acidity and a long persistent finish. The flavors reflect the long hot days, cool nights and the clean air of Valle de Uco. It is best to experience this fine wine at 65° F.",
+		"bottle": "img/bottle_small_malbec.png"
+	},
+
+	"wine2": {
+		"title": "Chardonnay",
+		"link": "mailto:contact@calivista.com",
+		"price": "",
+		"description": "This wine was derived from 100% Chardonnay grapes. So that the unique qualities inherent in our high-altitude grapes can be best appreciated, we have chosen not to oak this distinctive wine. You will find this wine with butterscotch, lemon, pineapple and vanilla tastes and flavors reflecting the long hot days, cool nights and the clean air of Valle de Uco. It is best to experience this fine wine at 55° F.",
+		"bottle": "img/bottle_small_chardonnay.png"
+	}
+}

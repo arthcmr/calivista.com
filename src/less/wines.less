@@ -1,0 +1,106 @@
+.wines-page {
+	background-color: @ColorBrownDarkest;
+	.drop-shadow (0, 0, 24px, 0px , 0.19);
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+	.wine {
+		margin-bottom: 25px;
+	}
+
+	.menu {
+		text-align: center;
+
+		dd > a {
+			color: @ColorGreyLightBrownish;
+		}
+
+		dd.active > a {
+			color: @ColorBrownDark;
+			background: @ColorGreyLightBrownish;
+		}
+	}
+
+	.title {
+		font-size: 2.25em;
+		color: @ColorGreyLightBrownish;
+		text-align: center;
+	}
+
+	.subtitle {
+		font-family: @FontTitle;
+		color: @ColorGreyLightest;
+		font-size: 2em;
+	}
+
+	.winebottle {
+		text-align: center;
+	}
+
+	.block1 {
+		text-align: right;
+	}
+	.block2 {
+		text-align: left;
+	}
+
+	p {
+		color: @ColorBrownDry;
+		@media (min-width: @screen-md-min) {
+			font-size: 1.1em;
+		}
+	}
+
+	.intro {
+		font-size: 1.1em;
+		color: #A5A5A1;
+		text-align: center;
+		@media (min-width: @screen-md-min) {
+			font-size: 1.2em;
+		}
+	}
+
+	.winebottle img{
+		width: 100%;
+		max-width: 197px;
+	}
+
+	.wine_inline {
+		width: 40%;
+		display: inline-block;
+		float: left;
+		margin-right: 15px;
+
+		img {
+			max-height: 320px;
+			margin: 20px;
+			margin-top: 0px;
+		}
+		
+		&.wine_chardonnay_inline {
+			float: right;
+			margin-right: 0px;
+			margin-left: 15px;
+		}
+	}
+
+	.order-wrapper {
+		padding-top: 20px;
+
+		.btn {
+		font-family: @FontTitle;
+		}
+	}
+
+	.order_wrapper .button {
+		background-color: @ColorGreyLightest;
+		border: 0px;
+		color: #4C81AA;
+		font-family: @FontTitle;
+		text-transform: uppercase;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+
+}

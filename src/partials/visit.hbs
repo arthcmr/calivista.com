@@ -1,0 +1,74 @@
+{{!-- VISIT PAGE --}}
+<section id="visit" class="visit-page page">
+
+	<div class="container">
+	{{!-- MENU --}}
+	  	<div class="menu_wrapper">
+			<dl class="menu">
+				{{#each site.menu }}
+				<dd {{#is this.name "visit"}}class="active"{{/is}}>
+					<a href="{{this.link}}">{{this.name}}</a>
+				</dd>
+				{{/each}}
+			</dl>
+		</div>
+	{{!-- /MENU --}}
+	
+		<div class="row">
+		
+			<div class="col-sm-6 col-xs-12">
+				
+				<h2>visit Us</h2>
+				{{!--<form class="custom">
+		
+		            <div class="row">
+		              <div class="col-xs-12 form-group">
+		                <label>Name: *</label>
+		                <input type="text" placeholder="">
+		              </div>
+		            </div>
+		
+		            <div class="row">
+		              <div class="col-xs-12 form-group">
+		                <label>E-mail: *</label>
+		                <input type="text" placeholder="">
+		              </div>
+		            </div>
+		            <div class="row">
+		              <div class="col-sm-6 col-xs-12 form-group">
+		                <label>Phone #:</label>
+		                <input type="text" placeholder="">
+		              </div>
+		              <div class="col-sm-6 col-xs-12 form-group">
+		                <label>City/State/Country:</label>
+		                <input type="text" placeholder="">
+		              </div>
+		            </div>
+		
+		            <div class="row">
+		              <div class="col-xs-12 form-group">
+		                <label>Message: *</label>
+		                <textarea placeholder=""></textarea>
+		              </div>
+		            </div>
+		            
+		            <div class="row">
+			            <div class="col-xs-12 form-group">
+			            	<button type="submit" class="button">Send message!</button>
+			            </div>
+		            </div>
+		        </form>
+		        
+		        <div class="row">
+		        	<div class="col-xs-12 columns alternative">
+			        	Alternatively, send your message to visit@calivista.com or call us at +1 (555) 555-5555
+		        	</div>
+	            </div>--}}
+				
+			</div>
+		
+			<div id="bottle2" class="bottle"></div>
+		</div>
+	</div>
+
+</section>

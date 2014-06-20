@@ -1,0 +1,102 @@
+.visit-page {
+	background-color: #879cc7;
+	background-image: url(../img/background1.jpg);
+    background-position: bottom center;
+    padding-top: 75px;
+
+	h2 {
+		color: #4C81AA;
+	}
+
+	.menu {
+		margin-bottom: 40px;
+	}
+
+	.menu dd > a {
+		color: #332E2E;
+	}
+
+	.menu dd.active > a {
+		color: #332E2E;
+		background: #E7E7DE;
+	}
+
+	.row {
+		position: relative;
+	}
+
+	.bottle {
+		display: none;
+		position: absolute;
+		right: 0%;
+		top: -290px;
+		background-image: url(../img/bottle2.png);
+		background-position: top center;
+		background-repeat: no-repeat;
+		
+		width: 288px;
+		background-size: 100%;
+		height: 1029px;
+	}
+
+	label {
+		font-family: @FontTitle;
+		text-transform: uppercase;
+	}
+
+	input, textarea {
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+
+	textarea {
+		height: 7em;
+	}
+
+	.button {
+		background-color: #4C81AA;
+		border: 0px;
+		color: #EEEEE5;
+		font-family: @FontTitle;
+		text-transform: uppercase;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		
+	}
+
+	}
+
+.alternative {
+	color: #332e2e;
+	text-align: center;
+	padding: 15px 10px;
+	background-color: rgba(231, 231, 222, 0.88);
+	
+	line-height: 1.8em;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	transform:rotate(-1deg);
+	-ms-transform:rotate(-1deg); /* IE 9 */
+	-webkit-transform:rotate(-1deg); /* Safari and Chrome */
+	
+	margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 48em) { 
+	.bottle {
+		display: block;
+	}
+}

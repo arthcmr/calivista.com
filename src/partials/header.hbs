@@ -1,12 +1,47 @@
-{{! The data is coming from src/data/site.json - This is a good way to keep it easy to manage }}
+{{!-- MENU --}}
+<div class="col-xs-12 menu mobile_menu">
+	<dl class="menu">
+		{{#each site.menu }}
+		<dd>
+			<a href="{{this.link}}">{{this.name}}</a>
+		</dd>
+		{{/each}}
+	</dl>
+</div>
+{{!-- /MENU --}}
 
-<header id="header" data-parallax="true" data-factor="0.9" data-parallaxtype="background">
+{{!-- HOME PAGE --}}
+<header id="home" class="first-page page">
+	
+	<div id="bottle" class="bottle"></div>
+	
 	<div class="container">
-        <h1>{{site.title}}</h1>
-        <h2>/ 
-        	{{#each site.menu}}
-				<a href="{{this.link}}">{{this.text}}</a> / 
-        	{{/each}}
-        </h2>
-      </div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 logo_wrapper">
+				<h1 class="logo">{{site.title}}</h1>
+			</div>
+			{{!-- MENU --}}
+		  	<div class="col-xs-12 col-sm-6 menu_wrapper">
+				<dl class="menu">
+					{{#each site.menu }}
+					<dd {{#is this.name "home"}}class="active"{{/is}}>
+						<a href="{{this.link}}">{{this.name}}</a>
+					</dd>
+					{{/each}}
+				</dl>
+			</div>
+			{{!-- /MENU --}}
+		</div>
+	
+		<div class="row">
+			
+			<div class="col-sm-4 col-sm-offset-8 col-xs-12 columns">
+				<h2>
+					Combine this breathtaking view, the finest grapes, and our passionate work. <u>The result is CaliVista</u>.
+				</h2>
+			</div>
+		</div>
+
+	</div>
+	
 </header>

@@ -1,17 +1,12 @@
 {
-	"title": "My simpGrunt Website",
+	"title": "Calivista",
+	"address": "http://www.calivista.com",
+	"year": "2014",
 	"menu": [
-		{
-			"text": "Home",
-			"link": "index.html"
-		},
-		{
-			"text": "Get Started",
-			"link": "get-started.html"
-		},
-		{
-			"text": "Learn More",
-			"link": "learn-more.html"
-		}
+		{"name": "home", "link": "#home" },
+		{"name": "about", "link": "#about" },
+		{"name": "wines", "link": "#wines" },
+		{"name": "visit", "link": "#visit" },
+		{"name": "contact", "link": "mailto:contact@calivista.com"}
 	]
 }

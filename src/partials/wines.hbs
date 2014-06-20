@@ -1,0 +1,62 @@
+{{!-- WINES PAGE --}}
+<section id="wines" class="wines-page page">
+
+	<div class="container">
+		{{!-- MENU --}}
+	  	<div class="menu_wrapper">
+			<dl class="menu">
+				{{#each site.menu }}
+				<dd {{#is this.name "wines"}}class="active"{{/is}}>
+					<a href="{{this.link}}">{{this.name}}</a>
+				</dd>
+				{{/each}}
+			</dl>
+		</div>
+		{{!-- /MENU --}}
+		
+		<div class="row">
+			<div class="col-xs-12 columns">
+				<h2 class="title">Our Wines</h2>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-3 col-xs-12 columns  winebottle hidden-xs">
+				<img src="{{wines.wine1.bottle}}" id="wine_malbec" alt="{{wines.wine1.title}}" />
+			</div>
+
+			<div class="col-sm-6 col-xs-12 columns">
+				<p class="intro">{{wines.intro}}</p>
+
+				<div class="row wines">
+					<div class="wine col-sm-6 col-xs-12 columns block1">
+						<span class="wine_inline wine_malbec_inline visible-xs"><img src="{{wines.wine1.bottle}}" alt="{{wines.wine1.title}}" /></span>
+						<h3 class="subtitle">{{wines.wine1.title}}</h3>
+						<p>{{wines.wine1.description}}</p>
+						{{#if wines.wine1.link }}
+						<p class="order-wrapper">
+							<a id="order_button" target="blank" href="{{wines.wine1.link}}" class="btn btn-lg btn-default">Order now{{#if wines.wine1.price }} - {{wines.wine1.price}}{{/if}}</a>
+						</p>
+						{{/if}}
+					</div>
+					<div class="col-sm-6 col-xs-12 columns block2">
+						<span class="wine_inline wine_chardonnay_inline visible-xs"><img src="{{wines.wine2.bottle}}" alt="{{wines.wine2.title}}" /></span>
+						<h3 class="subtitle">{{wines.wine2.title}}</h3>
+						<p>{{wines.wine2.description}}</p>
+						{{#if wines.wine2.link }}
+						<p class="order-wrapper">
+							<a id="order_button" target="blank" href="{{wines.wine2.link}}" class="btn btn-lg btn-default">Order now{{#if wines.wine2.price }} - {{wines.wine2.price}}{{/if}}</a>
+						</p>
+						{{/if}}
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3 col-xs-12 columns winebottle hidden-xs">
+				<img src="{{wines.wine2.bottle}}" id="wine_chardonnay" alt="{{wines.wine2.title}}" />
+			</div>
+		</div>
+	
+	</div>
+
+</section>
