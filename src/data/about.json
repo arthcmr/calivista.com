@@ -7,8 +7,8 @@
 		{
 		"name": "David Kalainoff",
 		"job": "CaliVista Owner",
-		"thumb": "http://placehold.it/60x60",
-		"photo": "http://placehold.it/340x240",
+		"thumb": "./img/team/david.jpg",
+		"photo": "./img/team/large/david.jpg",
 		"about": "David Kalainoff from Iowa was a senior executive at a global insurance company when he first visited Argentina in 2007 in search of a wine-related investment. Shortly thereafter he purchased a 25 hectare vineyard in Mendoza's prestigious Uco Valley. \"Although my friends at work thought I was crazy, I knew in my heart that Mendoza was a unique opportunity for me to get into wine and establish myself in an industry with tremendous potential,\" - says David. This year he began exporting his CaliVista wine to the United States. Dave has a wife Debbie, daughter Tatiana, and son Paulo."
 		},
 		{
@@ -28,8 +28,8 @@
 		{
 		"name": "Sergio A. Rinaldi",
 		"job": "Agronomist",
-		"thumb": "http://placehold.it/60x60",
-		"photo": "http://placehold.it/340x240",
+		"thumb": "./img/team/sergio.jpg",
+		"photo": "./img/team/large/sergio.jpg",
 		"about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
 		},
 		{
@@ -54,43 +54,44 @@
 		"about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
 		}],
 	"photos": [{
-		"image": "http://placehold.it/640x480",
-		"thumb": "http://placehold.it/200x150",
+		"image": "./img/gallery/large/mountains.jpg",
+		"thumb": "./img/gallery/mountains.jpg",
 		"caption": "Caption here"
 		},
 		{
-		"image": "http://placehold.it/640x480",
-		"thumb": "http://placehold.it/200x150",
+		"image": "./img/gallery/large/tractor.jpg",
+		"thumb": "./img/gallery/tractor.jpg",
 		"caption": "Caption here"
 		},
 		{
-		"image": "http://placehold.it/640x480",
-		"thumb": "http://placehold.it/200x150",
+		"image": "./img/gallery/large/vineyard.jpg",
+		"thumb": "./img/gallery/vineyard.jpg",
 		"caption": "Caption here"
 		},
 		{
-		"image": "http://placehold.it/640x480",
-		"thumb": "http://placehold.it/200x150",
+		"image": "./img/gallery/large/wine.jpg",
+		"thumb": "./img/gallery/wine.jpg",
 		"caption": "Caption here"
 		},
 		{
-		"image": "http://placehold.it/640x480",
-		"thumb": "http://placehold.it/200x150",
+		"image": "./img/gallery/large/house.jpg",
+		"thumb": "./img/gallery/house.jpg",
 		"caption": "Caption here"
 		},
 		{
-		"image": "http://placehold.it/640x480",
-		"thumb": "http://placehold.it/200x150",
+		"image": "./img/gallery/large/grapes.jpg",
+		"thumb": "./img/gallery/grapes.jpg",
 		"caption": "Caption here"
 		},
 		{
-		"image": "http://placehold.it/640x480",
-		"thumb": "http://placehold.it/200x150",
+		"image": "./img/gallery/large/grapes2.jpg",
+		"thumb": "./img/gallery/grapes2.jpg",
 		"caption": "Caption here"
 		},
 		{
-		"image": "http://placehold.it/640x480",
-		"thumb": "http://placehold.it/200x150",
+		"image": "./img/gallery/large/blue.jpg",
+		"thumb": "./img/gallery/blue.jpg",
 		"caption": "Caption here"
-		}]
+		}
+		]
 }
