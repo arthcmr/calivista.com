@@ -13,18 +13,26 @@
 			</dl>
 		</div>
 	{{!-- /MENU --}}
-
-		<h2>{{ visit.title }}</h2>
 	
 		<div class="row">
-		
-			<div class="col-sm-6 col-xs-12">
-				
-			</div>
-			<div class="col-sm-6 col-xs-12">
-				
-			</div>
 			
+			{{#each visit.properties }}
+			<div class="col-sm-6 col-xs-12">
+				<div class="property">
+					<h3 class="title">{{this.title}}</h3>
+					<p class="subtitle">{{this.location}}</p>
+					<a target="blank" href="{{this.link}}">
+					<div class="property-photo" style="{{#if this.image}}background-image:url(img/{{this.image}});{{/if}}">
+					</div>
+					</a>
+					<p>{{this.description}}</p>
+					<a target="blank" href="{{this.link}}" class="book btn btn-primary">
+						<i class="fa fa-calendar"></i> Book
+					</a>
+				</div>
+			</div>
+			{{/each}}
+
 		</div>
 	</div>
 

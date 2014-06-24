@@ -70,7 +70,59 @@
 		
 	}
 
+	.property {
+		background-color: @ColorAlmostWhite;
+		padding: 10px 20px;
+		margin: 5px;
+		margin-bottom: 20px;
+		display: inline-block;
+		position: relative;
+
+		font-family: @FontTitle;
+		
+		.border-radius(3px);
+		border: 1px solid #F3F3ED;
+		
+		.drop-shadow (1px, 1px, 5px, 0px , 0.1);
+
+		.title {
+			color: @ColorBrown;
+			margin-top: 10px;
+			font-family: @FontTitle;
+		}
+		.subtitle {
+			color: @ColorBrownDry;
+			font-family: @FontTitle;
+		}
+
+		.property-photo {
+			width: 100%;
+			padding-bottom: 60%;
+			position: relative;
+			margin-bottom: 10px;
+			.border-radius(2px);
+			background-color: #cccccc;
+			background-position: center center;
+			background-size: cover;
+		    background-repeat: no-repeat;
+
+		    &:hover {
+		    	opacity: 0.8;
+		    }
+		}
+
+		.book {
+			display: block;
+			margin-bottom: 10px;
+			font-size: 20px;
+		}
+
+		p {
+			font-family: @FontTitle;
+		}
 	}
+
+}
 
 .alternative {
 	color: #332e2e;
@@ -98,5 +150,11 @@
 @media only screen and (min-width: 48em) { 
 	.bottle {
 		display: block;
+	}
+	.book {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		font-size: 14px !important;
 	}
 }
