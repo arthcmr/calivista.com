@@ -18,7 +18,7 @@
 	<div class="container">
 		<div class="row main-text">
 			
-			<div class="col-xs-12 col-sm-4 columns">
+			<div class="col-xs-12 col-sm-4 col-md-3 columns">
 				<h2>
 					{{about.calivista.title}}
 				</h2>
@@ -26,28 +26,38 @@
 					{{about.calivista.text}}
 				</p>
 			</div>
-			<div class="col-xs-12 col-sm-8 columns">
+			<div class="col-xs-12 col-sm-8 col-md-9 columns">
 				<h2>
 					Our team
 				</h2>
-				<p>
-					Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.
-				</p>
+				<ul id="team-gallery" class="team-gallery">
+					{{#each about.team}}
+						<li class='team-member'>
+							<img class="team-thumb" src="{{ this.thumb }}" />
+							<span class="team-name">{{ this.name }}</span>
+							<span class="team-job">{{ this.job }}</span>
+
+							<div class="team-details">
+								<div class="team-details-member">
+									<img class="team-photo" src="{{ this.photo }}" />
+									<h3 class="title">{{ this.name }}</h3>
+									<h4 class="subtitle">{{ this.job }}</h4>
+									<p class="about">{{ this.about }}</p>
+								</div>
+							</div>
+						</li>
+					{{/each}}
+				</ul>
 			</div>
 		</div>
 		
 		
 		<div class="row">
 			
-			<ul class="clearing-thumbs gallery" data-clearing>
-			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption here..." src="http://placehold.it/200x150"></a></li>
-			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 2 here..." src="http://placehold.it/200x150"></a></li>
-			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 3 here..." src="http://placehold.it/200x150"></a></li>
-			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 2 here..." src="http://placehold.it/200x150"></a></li>
-			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 3 here..." src="http://placehold.it/200x150"></a></li>
-			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 2 here..." src="http://placehold.it/200x150"></a></li>
-			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 3 here..." src="http://placehold.it/200x150"></a></li>
-			  <li><a href="http://placehold.it/640x480" class="photo"><img data-caption="caption 3 here..." src="http://placehold.it/200x150"></a></li>
+			<ul id="photo-gallery" class="clearing-thumbs gallery" data-clearing>
+				{{#each about.photos}}
+					<li><a data-image="{{ this.image }}" data-caption="{{ this.caption }}" class="photo"><img src="{{ this.thumb }}"></a></li>
+				{{/each}}
 			</ul>
 		
 		</div>

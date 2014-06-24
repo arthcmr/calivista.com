@@ -24,6 +24,47 @@
 		font-size: 1.9em;
 	}
 
+	#team-gallery {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		font-family: @FontTitle;
+
+		.team-member {
+			display: block;
+			float: left;
+			margin: 5px 8px;
+			text-align: center;
+			cursor: pointer;
+			height: 110px;
+
+			.team-thumb {
+				.border-radius(30px);
+				.transition(all 0.2s ease);
+				margin-bottom: 7px;
+			}
+			.team-name {
+				display: block;
+			}
+			.team-job {
+				display: block;
+				font-size: 12px;
+				color: @ColorBrownDry;
+			}
+
+			&:hover {
+				.team-thumb {
+					.scale(1.2);
+					margin-bottom: 11px;
+				}
+			}
+
+			.team-details {
+				display: none;
+			}
+		}
+	}
+
 	.gallery {
 		padding: 10px 0px;
 		text-align: center;
@@ -35,20 +76,18 @@
 
 			& > .photo {
 
-				background-color: #FAFAF4;
+				.border-radius(3px);
+				.drop-shadow (1px, 1px, 5px, 0px , 0.1);
+				.transition(all 0.2s ease);
+				
+				background-color: @ColorAlmostWhite;
 				padding: 8px;
 				margin: 10px;
 				margin-bottom: 20px;
 				display: inline-block;
-				
-				
-				border-radius: 3px;
-				-moz-border-radius: 3px;
-				-webkit-border-radius: 3px;
+				cursor: pointer;
 				
 				border: 1px solid #F3F3ED;
-				
-				.drop-shadow (1px, 1px, 5px, 0px , 0.1);
 
 				& > img {
 					width: 100px;
@@ -79,6 +118,11 @@
 
 			&:nth-child(5n-5) > .photo {  /* or 4n+1 */
 			    .rotate(1deg);
+			}
+
+			&:hover > .photo {
+				.rotate(0deg);
+				.scale(1.1);
 			}
 
 		}
@@ -113,5 +157,12 @@
 				color: @ColorBlack;
 			}
 		}
+	}
+}
+
+.team-details-member {
+	text-align: center;
+	.team-photo {
+		.border-radius(3px);
 	}
 }

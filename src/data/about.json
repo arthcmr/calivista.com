@@ -3,6 +3,94 @@
 		"title": "About the vineyard",
 		"text": "CaliVista is our 70 acre vineyard near Tupungato, Mendoza, Argentina. Located at an altitude over 3,500 feet above sea level, the rocky soils of our land provide excellent drainage allowing high quality vines to thrive."
 	},
-	"team": [],
-	"photos": []
+	"team": [
+		{
+		"name": "David Kalainoff",
+		"job": "CaliVista Owner",
+		"thumb": "http://placehold.it/60x60",
+		"photo": "http://placehold.it/340x240",
+		"about": "David Kalainoff from Iowa was a senior executive at a global insurance company when he first visited Argentina in 2007 in search of a wine-related investment. Shortly thereafter he purchased a 25 hectare vineyard in Mendoza's prestigious Uco Valley. \"Although my friends at work thought I was crazy, I knew in my heart that Mendoza was a unique opportunity for me to get into wine and establish myself in an industry with tremendous potential,\" - says David. This year he began exporting his CaliVista wine to the United States. Dave has a wife Debbie, daughter Tatiana, and son Paulo."
+		},
+		{
+		"name": "Paul Kalainoff",
+		"job": "",
+		"thumb": "http://placehold.it/60x60",
+		"photo": "http://placehold.it/340x240",
+		"about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		},
+		{
+		"name": "Mauricio Loroa",
+		"job": "Winemaker",
+		"thumb": "http://placehold.it/60x60",
+		"photo": "http://placehold.it/340x240",
+		"about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		},
+		{
+		"name": "Sergio A. Rinaldi",
+		"job": "Agronomist",
+		"thumb": "http://placehold.it/60x60",
+		"photo": "http://placehold.it/340x240",
+		"about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		},
+		{
+		"name": "Esteban Tuninetti",
+		"job": "Finance and Admin",
+		"thumb": "http://placehold.it/60x60",
+		"photo": "http://placehold.it/340x240",
+		"about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		},
+		{
+		"name": "Marcos ?????",
+		"job": "",
+		"thumb": "http://placehold.it/60x60",
+		"photo": "http://placehold.it/340x240",
+		"about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		},
+		{
+		"name": "David Cahill",
+		"job": "Cahill Imports",
+		"thumb": "http://placehold.it/60x60",
+		"photo": "http://placehold.it/340x240",
+		"about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		}],
+	"photos": [{
+		"image": "http://placehold.it/640x480",
+		"thumb": "http://placehold.it/200x150",
+		"caption": "Caption here"
+		},
+		{
+		"image": "http://placehold.it/640x480",
+		"thumb": "http://placehold.it/200x150",
+		"caption": "Caption here"
+		},
+		{
+		"image": "http://placehold.it/640x480",
+		"thumb": "http://placehold.it/200x150",
+		"caption": "Caption here"
+		},
+		{
+		"image": "http://placehold.it/640x480",
+		"thumb": "http://placehold.it/200x150",
+		"caption": "Caption here"
+		},
+		{
+		"image": "http://placehold.it/640x480",
+		"thumb": "http://placehold.it/200x150",
+		"caption": "Caption here"
+		},
+		{
+		"image": "http://placehold.it/640x480",
+		"thumb": "http://placehold.it/200x150",
+		"caption": "Caption here"
+		},
+		{
+		"image": "http://placehold.it/640x480",
+		"thumb": "http://placehold.it/200x150",
+		"caption": "Caption here"
+		},
+		{
+		"image": "http://placehold.it/640x480",
+		"thumb": "http://placehold.it/200x150",
+		"caption": "Caption here"
+		}]
 }

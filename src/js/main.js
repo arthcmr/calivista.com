@@ -21,6 +21,34 @@ $(function() {
 		}
 	});
 
+	$("#photo-gallery .photo").each(function() {
+		var photo = $(this),
+			caption = photo.attr("data-caption"),
+			image = photo.attr("data-image"),
+			modal = "<p><img src='"+image+"' /></p><p>"+caption+"</p>";
+		photo.click(function() {
+			$.simpModal({
+				closeButton: true,
+				content: modal,
+				transition: 'slide',
+				width: 700
+			})
+		});
+	});
+
+	$("#team-gallery .team-member").each(function() {
+		var member = $(this),
+			details = member.find(".team-details");
+		member.click(function() {
+			$.simpModal({
+				closeButton: true,
+				element: details,
+				transition: 'slide',
+				width: 400
+			})
+		});
+	});
+
 });
 
 function go_to(destination) {
