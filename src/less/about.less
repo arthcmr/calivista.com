@@ -39,6 +39,8 @@
 			height: 110px;
 
 			.team-thumb {
+				width: 60px;
+				height: 60px;
 				.border-radius(30px);
 				.transition(all 0.2s ease);
 				margin-bottom: 7px;
@@ -90,6 +92,8 @@
 				border: 1px solid #F3F3ED;
 
 				& > img {
+					.transition(all 0.2s ease);
+					.grayscale(50%);
 					width: 100px;
 					height: 75px;
 					
@@ -123,6 +127,9 @@
 			&:hover > .photo {
 				.rotate(0deg);
 				.scale(1.1);
+				& > img {
+					.grayscale(0%);
+				}
 			}
 
 		}

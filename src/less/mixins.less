@@ -136,3 +136,9 @@
 	-ms-transform-origin:     @x @y;
 	-o-transform-origin:      @x @y;
 }
+
+.grayscale (@percentage) {
+	-webkit-filter: grayscale(@percentage);
+	-moz-filter: grayscale(@percentage);
+	filter: grayscale(@percentage);
+}
